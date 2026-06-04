@@ -10,7 +10,7 @@ const links = [
 export default function Nav() {
   return (
     <header className="sticky top-0 z-30 border-b border-gray-200 bg-white/90 backdrop-blur">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:px-6 lg:px-8">
         <NavLink to="/" className="text-lg font-extrabold tracking-tight text-brand-700">
           AI Engineering Hub
         </NavLink>

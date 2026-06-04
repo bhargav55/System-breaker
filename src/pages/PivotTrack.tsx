@@ -1,3 +1,8 @@
+import TrackPage from '../components/TrackPage';
+import { getTrackByRoute } from '../data/tracks';
+
+const track = getTrackByRoute('/pivot')!;
+
 export default function PivotTrack() {
-  return <div>Pivot to AI Engineer</div>;
+  return <TrackPage track={track} />;
 }

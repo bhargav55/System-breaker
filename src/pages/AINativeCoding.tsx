@@ -1,3 +1,8 @@
+import TrackPage from '../components/TrackPage';
+import { getTrackByRoute } from '../data/tracks';
+
+const track = getTrackByRoute('/ai-native-coding')!;
+
 export default function AINativeCoding() {
-  return <div>AI-Native Coding</div>;
+  return <TrackPage track={track} />;
 }
